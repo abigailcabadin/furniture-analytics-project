@@ -1,6 +1,6 @@
-# 🪑 Furniture Analytics Dashboard
+# 🪑 Furniture Analytics Project
 
-A multi-layered data analytics project exploring delivery performance, customer satisfaction, and profitability for a fictional online furniture retailer. This project combines **Power BI dashboarding**, **R-based data cleaning**, and **strategic insights** to uncover operational patterns and guide business decisions.
+A full-stack data analytics project exploring delivery performance, customer satisfaction, and profitability for a fictional online furniture retailer. This project combines **R-based data cleaning, exploration, and predictive modeling** with a **multi-page Power BI dashboard** to deliver actionable insights and strategic recommendations.
 
 ---
 
@@ -17,71 +17,82 @@ Cleaned dataset (via R):
 
 ---
 
-## 📊 Dashboard Overview
+## 📈 R Markdown Analysis
+
+Before building the dashboard, I conducted a comprehensive analysis in R using R Markdown. This report simulates the role of a **Product Quality Assurance Analyst**, uncovering inefficiencies in delivery, evaluating the impact of assembly services, and identifying drivers of customer satisfaction.
+
+🔗 [View Full HTML Report](https://abigailcabadin.github.io/furniture-analysis-report/)
+
+### 🔍 Key Steps in R:
+
+#### 🧼 Data Cleaning
+- Removed missing values and standardized column formats
+- Validated logical consistency between service requests and cost charges
+- Created new calculated fields:
+  - `estimated_margin` (profit proxy)
+  - `delivery_success` (binary flag)
+  - `assembly_label` (for grouping service requests)
+
+#### 📊 Exploratory Analysis
+- Summary statistics across product categories and payment methods
+- Distribution of customer ratings and estimated margins
+- Grouped comparisons of delivery success and customer satisfaction
+
+#### 📉 Visualizations
+- Histograms of customer ratings
+- Bar charts showing delivery success by category and payment method
+- Margin distribution across product categories
+
+#### 🔮 Predictive Modeling
+- **Logistic Regression** to predict delivery success
+- **Linear Regression** to model customer satisfaction
+- **Decision Tree** and **Random Forest** to classify delivery outcomes
+
+---
+
+## 📊 Power BI Dashboard
 
 Built in **Power BI**, the dashboard is divided into four key pages:
 
-### 1. 🔑 Key Metrics
-A high-level summary of core performance indicators:
-- Delivery success rate
-- Average customer rating
-- Average estimated margin
-
-📷 [View Screenshot](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Key%20Metrics.jpg)
+### 🔑 Key Metrics  
+A high-level summary of core performance indicators  
+![Key Metrics](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Key%20Metrics.jpg)
 
 ---
 
-### 2. 🚚 Delivery Performance Overview
-Analyzes delivery outcomes across product categories and payment methods:
-- Stacked bar chart of delivery status by category
-- Delivery success breakdown by payment method
-
-📷 [View Screenshot](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Delivery%20Performance.jpg)
+### 🚚 Delivery Performance Overview  
+Analyzes delivery outcomes across product categories and payment methods  
+![Delivery Performance](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Delivery%20Performance.jpg)
 
 ---
 
-### 3. 🌟 Customer Satisfaction Insights
-Explores customer ratings and service impact:
-- Rating distribution histogram
-- Average rating by product category
-- Comparison of ratings with vs. without assembly service
-
-📷 [View Screenshot](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Customer%20Satisfaction%20Insights.jpg)
+### 🌟 Customer Satisfaction Insights  
+Explores customer ratings and service impact  
+![Customer Satisfaction](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Customer%20Satisfaction%20Insights.jpg)
 
 ---
 
-### 4. 💰 Profitability Breakdown
-Highlights margin performance across categories and services:
-- Average margin by product category
-- Count of high-margin orders
-- Profitability by payment method and assembly service
-
-📷 [View Screenshot](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Profitability%20Breakdown.jpg)
-
----
-
-## 📈 R Markdown Analysis
-
-A supporting exploratory analysis was conducted in R to clean the dataset and uncover trends prior to dashboarding.
-
-🔗 [View Full HTML Report](https://abigailcabadin.github.io/furniture-analysis-report/)
+### 💰 Profitability Breakdown  
+Highlights margin performance across categories and services  
+![Profitability Breakdown](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Profitability%20Breakdown.jpg)
 
 ---
 
 ## 🎯 Key Insights
 
-- **Bedroom** category leads in average margin but suffers from lower delivery success.
-- **Assembly service** requests correlate with higher customer satisfaction.
-- **PayPal** payments show elevated delivery failure rates.
-- **Living Room** items have the highest delivery success rate.
+- **Bedroom** category leads in average margin but suffers from lower delivery success  
+- **Assembly service** requests correlate with higher customer satisfaction  
+- **PayPal** payments show elevated delivery failure rates  
+- **Living Room** items have the highest delivery success rate  
+- **Shipping cost and payment method** are strong predictors of delivery success
 
 ---
 
 ## 🛠️ Tools Used
 
-- **Power BI** for dashboard design and data visualization
-- **R** for data cleaning and transformation
-- **GitHub Pages** for hosting the R Markdown report
+- **R & R Markdown** for data cleaning, exploration, and modeling  
+- **Power BI** for dashboard design and visualization  
+- **GitHub Pages** for hosting the R Markdown report  
 - **Kaggle** for dataset sourcing
 
 ---
@@ -89,10 +100,9 @@ A supporting exploratory analysis was conducted in R to clean the dataset and un
 ## 💼 About Me
 
 Hi, I’m Abigail — a data analyst passionate about turning raw data into actionable insights. This project reflects my ability to:
-- Clean and transform messy datasets
-- Design intuitive, multi-page dashboards
+- Clean and transform messy datasets  
+- Build predictive models and uncover patterns  
+- Design intuitive, multi-page dashboards  
 - Communicate findings clearly to stakeholders
 
 Let’s connect and build something impactful together.
-
----
