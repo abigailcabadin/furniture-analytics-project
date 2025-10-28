@@ -56,25 +56,25 @@ Built in **Power BI**, the dashboard is divided into four key pages:
 
 ### 🔑 Key Metrics  
 A high-level summary of core performance indicators  
-![Key Metrics](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Key%20Metrics.jpg)
+![Key Metrics](https://raw.githubusercontent.com/abigailcabadin/furniture-analytics-project/blob/main/Key%20Metrics.jpg)
 
 ---
 
 ### 🚚 Delivery Performance Overview  
 Analyzes delivery outcomes across product categories and payment methods  
-![Delivery Performance](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Delivery%20Performance.jpg)
+![Delivery Performance](https://raw.githubusercontent.com/abigailcabadin/furniture-analytics-project/blob/main/Delivery%20Performance.jpg)
 
 ---
 
 ### 🌟 Customer Satisfaction Insights  
 Explores customer ratings and service impact  
-![Customer Satisfaction](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Customer%20Satisfaction%20Insights.jpg)
+![Customer Satisfaction](https://raw.githubusercontent.com/abigailcabadin/furniture-analytics-project/blob/main/Customer%20Satisfaction%20Insights.jpg)
 
 ---
 
 ### 💰 Profitability Breakdown  
 Highlights margin performance across categories and services  
-![Profitability Breakdown](https://github.com/abigailcabadin/furniture-analytics-project/blob/main/Profitability%20Breakdown.jpg)
+![Profitability Breakdown](https://raw.githubusercontent.com/abigailcabadin/furniture-analytics-project/blob/main/Profitability%20Breakdown.jpg)
 
 ---
 
